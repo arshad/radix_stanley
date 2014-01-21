@@ -11050,3 +11050,8 @@ bt {
   left: 50%;
   margin-left: -25%;
 }
+/* line 95, ../sass/partials/_node.scss */
+.node-article .field-type-image img {
+  max-width: 100%;
+  height: auto;
+}
