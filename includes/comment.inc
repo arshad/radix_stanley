@@ -7,7 +7,7 @@
 /**
  * Implements template_preprocess_comment().
  */
-function stanley_preprocess_comment(&$variables) {
+function radix_stanley_preprocess_comment(&$variables) {
   $comment = $variables['comment'];
   $author = user_load($comment->uid);
 

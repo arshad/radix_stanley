@@ -7,7 +7,7 @@
 /**
  * Implements theme_menu_local_tasks().
  */
-function stanley_menu_local_tasks(&$variables) {
+function radix_stanley_menu_local_tasks(&$variables) {
   $output = '';
 
   if (!empty($variables['primary'])) {

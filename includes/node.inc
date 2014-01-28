@@ -7,7 +7,7 @@
 /**
  * Implements template_preprocess_node().
  */
-function stanley_preprocess_node(&$variables) {
+function radix_stanley_preprocess_node(&$variables) {
   $node = $variables['node'];
   $author = user_load($node->uid);
 
