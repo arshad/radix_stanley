@@ -6,6 +6,10 @@
 // --------------------------------------------------
 .node {
   .submitted {
+    .user-picture {
+      float: left;
+      margin-right: 10px;
+    }
     img {
       width: 50px;
       height: auto;
@@ -13,6 +17,7 @@
   }
   .author {
     font-size: 12px;
+    margin-top: 10px;
     text-transform: uppercase;
   }
   .date {

@@ -10957,57 +10957,63 @@ form label {
 }
 
 /* line 9, ../sass/partials/_node.scss */
+.node .submitted .user-picture {
+  float: left;
+  margin-right: 10px;
+}
+/* line 13, ../sass/partials/_node.scss */
 .node .submitted img {
   width: 50px;
   height: auto;
 }
-/* line 14, ../sass/partials/_node.scss */
+/* line 18, ../sass/partials/_node.scss */
 .node .author {
   font-size: 12px;
+  margin-top: 10px;
   text-transform: uppercase;
 }
-/* line 18, ../sass/partials/_node.scss */
+/* line 23, ../sass/partials/_node.scss */
 .node .date {
   font-size: 12px;
   text-transform: uppercase;
   color: #d2d2d2;
   font-weight: 700;
 }
-/* line 25, ../sass/partials/_node.scss */
+/* line 30, ../sass/partials/_node.scss */
 .node .content .field {
   margin: 0 0 15px;
 }
-/* line 29, ../sass/partials/_node.scss */
+/* line 34, ../sass/partials/_node.scss */
 .node .field-label {
   font-size: 12px;
   font-weight: normal;
 }
 
-/* line 36, ../sass/partials/_node.scss */
+/* line 41, ../sass/partials/_node.scss */
 .field-name-field-tags {
   font-size: 12px;
 }
-/* line 39, ../sass/partials/_node.scss */
+/* line 44, ../sass/partials/_node.scss */
 .field-name-field-tags .field-label,
 .field-name-field-tags .field-items {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 43, ../sass/partials/_node.scss */
+/* line 48, ../sass/partials/_node.scss */
 .field-name-field-tags .field-item {
   display: inline-block;
 }
-/* line 45, ../sass/partials/_node.scss */
+/* line 50, ../sass/partials/_node.scss */
 .field-name-field-tags .field-item:after {
   content: "-";
   padding: 0 3px;
 }
-/* line 50, ../sass/partials/_node.scss */
+/* line 55, ../sass/partials/_node.scss */
 .field-name-field-tags .field-item:last-child:after {
   content: "";
 }
 
-/* line 56, ../sass/partials/_node.scss */
+/* line 61, ../sass/partials/_node.scss */
 bd {
   font-size: 12px;
   text-transform: uppercase;
@@ -11015,30 +11021,30 @@ bd {
   font-weight: 700;
 }
 
-/* line 62, ../sass/partials/_node.scss */
+/* line 67, ../sass/partials/_node.scss */
 ba {
   font-size: 12px;
   text-transform: uppercase;
 }
 
-/* line 66, ../sass/partials/_node.scss */
+/* line 71, ../sass/partials/_node.scss */
 .bq {
   font-size: 22px;
   padding-top: 30px;
 }
 
-/* line 70, ../sass/partials/_node.scss */
+/* line 75, ../sass/partials/_node.scss */
 bt {
   font-size: 12px;
 }
 
-/* line 78, ../sass/partials/_node.scss */
+/* line 83, ../sass/partials/_node.scss */
 .node-article.node-teaser {
   margin: 0 0 40px;
   padding: 0 0 40px;
   position: relative;
 }
-/* line 82, ../sass/partials/_node.scss */
+/* line 87, ../sass/partials/_node.scss */
 .node-article.node-teaser:after {
   position: absolute;
   margin: 0 auto;
@@ -11050,7 +11056,7 @@ bt {
   left: 50%;
   margin-left: -25%;
 }
-/* line 95, ../sass/partials/_node.scss */
+/* line 100, ../sass/partials/_node.scss */
 .node-article .field-type-image img {
   max-width: 100%;
   height: auto;

@@ -19,12 +19,11 @@
     <?php endif; ?>
   <?php print render($title_suffix); ?>
 
-  <p class="submitted">
+  <div class="submitted">
     <?php print $user_picture; ?>
     <ba><?php print $author; ?></ba>
-  </p>
-
-  <p><bd><?php print format_date($created, 'medium'); ?></bd></p>
+    <p><bd><?php print format_date($created, 'medium'); ?></bd></p>
+  </div>
 
   <div class="content"<?php print $content_attributes; ?>>
     <?php

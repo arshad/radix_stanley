@@ -17,12 +17,11 @@
  */
 ?>
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-  <p class="submitted">
+  <div class="submitted">
     <?php print $picture; ?>
     <span class="author"><?php print $author; ?></span>
-  </p>
-
-  <p class="date"><?php print format_date($comment->created, 'medium'); ?></p>
+    <p class="date"><?php print format_date($comment->created, 'medium'); ?></p>
+  </div>
 
   <div class="content">
     <h4<?php print $title_attributes; ?>><?php print $title ?></h4>

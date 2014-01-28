@@ -13,12 +13,11 @@
 ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <p class="submitted">
+  <div class="submitted">
     <?php print $user_picture; ?>
     <ba><?php print $author; ?></ba>
-  </p>
-
-  <p class="date"><?php print format_date($created, 'medium'); ?></p>
+    <p class="date"><?php print format_date($created, 'medium'); ?></p>
+  </div>
 
   <?php print render($title_prefix); ?>
     <?php if (!$page): ?>
