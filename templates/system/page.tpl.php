@@ -18,9 +18,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="<?php print $front_page; ?>" id="logo" class="navbar-brand">
-        <?php print $site_name; ?>
-      </a>
+
+      <?php if ($logo): ?>
+        <a href="<?php print $front_page; ?>" id="logo" class="pull-left">
+          <img src="<?php print $logo; ?>" />
+        </a>
+      <?php endif; ?>
+
+      <?php if ($site_name): ?>
+        <a href="<?php print $front_page; ?>" class="navbar-brand">
+          <?php print $site_name; ?>
+        </a>
+      <?php endif; ?>
+      
     </div> <!-- /.navbar-header -->
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <?php if ($main_menu): ?>
