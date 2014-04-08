@@ -44,3 +44,12 @@ function radix_stanley_preprocess_page(&$variables) {
     $variables['theme_hook_suggestions'][] = 'page__'. $variables['node']->type;
   }
 }
+
+/**
+ * Implements theme_menu_tree__navbar_right.
+ * @see radix_stanley_preprocess_page
+ */
+function radix_stanley_menu_tree__navbar_right(&$vars) {
+  $vars['tree'] = '<ul class="menu nav navbar-nav navbar-right">' . $vars['tree'] . '</ul>';
+  return $vars['tree'];
+}
