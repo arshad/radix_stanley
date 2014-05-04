@@ -71,6 +71,10 @@
     </div>
   <?php endif; ?>
 
+  <?php if ($action_links): ?>
+    <?php print render($action_links); ?>
+  <?php endif; ?>
+
   <?php print render($page['content']); ?>
 </div><!-- /container -->
 
