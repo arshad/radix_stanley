@@ -12,12 +12,13 @@
  */
 ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-
-  <div class="submitted">
-    <?php print $user_picture; ?>
-    <ba><?php print $author; ?></ba>
-    <p class="date"><?php print format_date($created, 'medium'); ?></p>
-  </div>
+  <?php if ($display_submitted): ?>
+    <div class="submitted">
+      <?php print $user_picture; ?>
+      <ba><?php print $author; ?></ba>
+      <p class="date"><?php print format_date($created, 'medium'); ?></p>
+    </div>
+  <?php endif; ?>
 
   <?php print render($title_prefix); ?>
     <?php if (!$page): ?>
