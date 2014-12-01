@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Radix theme implementation to display a node.
+ * Theme implementation to display teaser for an article node.
  *
  * @see template_preprocess()
  * @see template_preprocess_node()
