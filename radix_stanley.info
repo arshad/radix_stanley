@@ -18,13 +18,13 @@ plugins[panels][layouts] = panels/layouts
 plugins[panels][styles] = panels/styles
 
 ; CSS - General
-stylesheets[all][]     = assets/stylesheets/screen.css
-stylesheets[print][]   = assets/stylesheets/print.css
+stylesheets[all][]     = assets/css/radix_stanley.style.css
+stylesheets[print][]   = assets/css/print.css
 
 ; CSS - Conditional
 stylesheets-conditional[IE 7][all][] = assets/stylesheets/ie7.css
 stylesheets-conditional[IE 8][all][] = assets/stylesheets/ie8.css
 
 ; Javascript
-scripts[] = assets/javascripts/hover.zoom.js
-scripts[] = assets/javascripts/script.js
+scripts[] = assets/js/hover.zoom.js
+scripts[] = assets/js/radix_stanley.script.js
